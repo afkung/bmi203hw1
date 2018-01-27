@@ -6,14 +6,14 @@ BMI203 HW #1
 import numpy as np
 
 def bubblesort(x):
-    """
-    Bubble sort: iterate through list n times, swapping adjacent neighbors if they are out of order
-    """
+	"""
+	Bubble sort: iterate through list n times, swapping adjacent neighbors if they are out of order
+	"""
 	assignments = 0
 	conditionals = 0
 	length = len(x)
 	if length < 2:
-		return x
+		return x,0,0
 	for iteration in range(length-1):
 		for index in range(length-1):
 			conditionals += 1
@@ -25,9 +25,9 @@ def bubblesort(x):
 	return x, assignments, conditionals
 	
 def quicksort(x, low, high, cond, assign):
-    """
-    Quick sort: divide and conquer - partitioning and recursing over pieces
-    """
+	"""
+	Quick sort: divide and conquer - partitioning and recursing over pieces
+	"""
 	cond += 1
 	if low < high:
 		assign += 1
