@@ -1,7 +1,7 @@
 # example
 
 [![Build
-Status](https://travis-ci.org/afkung/example.svg?branch=master)](https://travis-ci.org/afkung/example)
+Status](https://travis-ci.org/afkung/bmi203hw1.svg?branch=master)](https://travis-ci.org/afkung/bmi203hw1)
 
 Example python project with testing.
 
@@ -24,7 +24,7 @@ to install all the dependencies in `requirements.txt`. Then the package's
 main function (located in `example/__main__.py`) can be run as follows
 
 ```
-python -m example
+python -m bmi203hw1
 ```
 
 ## testing
