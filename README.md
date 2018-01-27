@@ -1,4 +1,4 @@
-# example
+# bmi203hw1
 
 [![Build
 Status](https://travis-ci.org/afkung/bmi203hw1.svg?branch=master)](https://travis-ci.org/afkung/bmi203hw1)
@@ -21,7 +21,7 @@ conda install --yes --file requirements.txt
 ```
 
 to install all the dependencies in `requirements.txt`. Then the package's
-main function (located in `example/__main__.py`) can be run as follows
+main function (located in `bmi203hw1/__main__.py`) can be run as follows
 
 ```
 python -m bmi203hw1
