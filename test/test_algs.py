@@ -11,11 +11,13 @@ def test_bubblesort():
     
     # for now, just attempt to call the bubblesort function, should
     # actually check output
-    print(algs.bubblesort(x))
+    sorted, assign, cond = algs.bubblesort(x))
+    assert sorted = x.sort()
 
 def test_quicksort():
 
     x = np.array([1,2,4,0,1])
     # for now, just attempt to call the quicksort function, should
     # actually check output
-    print(algs.quicksort(x,0,len(x)-1,0,0))
+    sorted, assign, cond = algs.bubblesort(x,0,len(x)-1,0,0))
+    assert sorted = x.sort()

@@ -3,15 +3,15 @@
 [![Build
 Status](https://travis-ci.org/afkung/bmi203hw1.svg?branch=master)](https://travis-ci.org/afkung/bmi203hw1)
 
-Example python project with testing.
+BMI HW #1 with testing.
 
 ## usage
 
 To use the package, first make a new conda environment and activate it
 
 ```
-conda create -n exampleenv python=3
-source activate exampleenv
+conda create -n hw1env python=3
+source activate hw1env
 ```
 
 then run

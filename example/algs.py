@@ -1,3 +1,8 @@
+"""
+Andrew Kung
+BMI203 HW #1
+"""
+
 import numpy as np
 
 def bubblesort(x):
@@ -13,7 +18,7 @@ def bubblesort(x):
 		for index in range(length-1):
 			conditionals += 1
 			if x[index] >= x[index+1]:
-				assignments += 3
+				assignments += 2
 				new_value = x[index+1]
 				x[index+1] = x[index]
 				x[index] = new_value
@@ -27,7 +32,6 @@ def quicksort(x, low, high, cond, assign):
 	if low < high:
 		assign += 1
 		pivot, cond, assign = partition(x, low, high, cond, assign)
-		print("pivot"+str(pivot))
 		x, cond, assign = quicksort(x, low, pivot-1, cond, assign)
 		x, cond, assign = quicksort(x, pivot+1, high, cond, assign)
 	return x, cond, assign
@@ -36,10 +40,8 @@ def partition(x, low, high, cond, assign):
 	"""
 	Partition function for quick sort
 	"""
-	print(x)
 	assign += 3
 	pivot_item = x[low]
-	print("partition "+str(pivot_item)+' '+str(low)+' '+str(high))
 	left = low
 	right = high
 	while left < right:
@@ -54,7 +56,7 @@ def partition(x, low, high, cond, assign):
 			right -= 1
 		cond += 1
 		if left < right:
-			assign += 3
+			assign += 2
 			holder = x[left]
 			x[left] = x[right]
 			x[right] = holder
